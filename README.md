@@ -42,3 +42,33 @@ Requirements: A Mac with Xcode 15+ installed.
 1. Open the Android Studio project, and run the `iosApp` run configuration from the toolbar OR open `iosApp/iosApp.xcworkspace` in Xcode.
 2. Select the target iOS Simulator (e.g., iPhone 15 Pro). 
 3. Click **Run** to build and deploy the iOS application using shared Compose UI.
+
+## Screenshots
+
+### Android
+
+#### Product List
+![Android Product List](screenshot/android_product_screen.png)
+
+#### Product Details
+![Android Product Details](screenshot/android_details_screen.png)
+
+#### Search
+![Android Search](screenshot/android_search_screen.png)
+
+#### Search by Category
+![Android Search by Category](screenshot/android_searchby_category_screen.png)
+
+### iPhone
+
+#### Product List
+![iPhone Product List](screenshot/iphone_product_screen.png)
+
+#### Product Details
+![iPhone Product Details](screenshot/iphone_product_details_screen.png)
+
+#### Search
+![iPhone Search](screenshot/iphone_search_screen.png)
+
+#### Search by Category
+![iPhone Search by Category](screenshot/iphone_searchby_category_screen.png)
