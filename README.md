@@ -1,6 +1,6 @@
-# Product Browser App (KMM)
+# Product Browser App (KMP)
 
-This is a Kotlin Multiplatform Mobile (KMM) application that allows users to browse products, view details, search by keyword, and filter by categories. It consumes data from the public API: `https://dummyjson.com/docs/products`.
+This is a Kotlin Multiplatform (KMP) application that allows users to browse products, view details, search by keyword, and filter by categories. It consumes data from the public API: `https://dummyjson.com/docs/products.
 
 ## Business Requirements Summary
 - **Product List**: Displays a list of products with title, price, and thumbnail.
