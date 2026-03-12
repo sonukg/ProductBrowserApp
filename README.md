@@ -49,12 +49,9 @@ Requirements: A Mac with Xcode 15+ installed.
 |---------|--------|
 | **Product List** | **Product List** |
 | ![Android Product List](screenshot/android_product_screen.png) | ![iPhone Product List](screenshot/iphone_product_screen.png) |
-
 | **Product Details** | **Product Details** |
 | ![Android Product Details](screenshot/android_details_screen.png) | ![iPhone Product Details](screenshot/iphone_product_details_screen.png) |
-
 | **Search** | **Search** |
 | ![Android Search](screenshot/android_search_screen.png) | ![iPhone Search](screenshot/iphone_search_screen.png) |
-
 | **Search by Category** | **Search by Category** |
 | ![Android Search by Category](screenshot/android_searchby_category_screen.png) | ![iPhone Search by Category](screenshot/iphone_searchby_category_screen.png) |
