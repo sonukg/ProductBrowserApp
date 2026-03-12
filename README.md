@@ -21,14 +21,14 @@ The application follows Clean Architecture concepts:
 - **DI (Dependency Injection)**: Utilizes `Koin` to inject dependencies automatically across common layers, view models, and repositories.
 
 ## Trade-offs & Assumptions
-- **Caching**: Currently utilizing a fast in-memory map mechanism (`MutableMap` and `MutableList`) over persistent database tools (like Room or Realm) to keep the initial application simple, lightweight, and focused on showcasing core app requirements efficiently. 
+- **Caching**: Currently utilizing a fast in-memory map mechanism (`MutableMap` and `MutableList`) to keep the initial application simple, lightweight, and focused on showcasing core app requirements efficiently. 
 - **Image Loading**: Included `coil3` (Coil Compose Multiplatform) which seamlessly handles cross-platform Compose image loading configured with Ktor network fetcher.
 - **Architecture mapping**: Shared components and presentation are natively implemented entirely in `commonMain` utilizing Compose Multiplatform.
 
 ## How to Build and Run
 
 ### Android
-Requirements: Android Studio Ladybug/Koala or later with Kotlin Multiplatform plugins.
+Requirements: Android Studio or later with Kotlin Multiplatform plugins.
 1. Open the project in Android Studio.
 2. Ensure you have an Android device or emulator running.
 3. Select the `composeApp` run configuration (or `app`) targeting the Android emulator.
@@ -37,7 +37,7 @@ Requirements: Android Studio Ladybug/Koala or later with Kotlin Multiplatform pl
 ### iOS
 Requirements: A Mac with Xcode 15+ installed.
 1. Open the Android Studio project, and run the `iosApp` run configuration from the toolbar OR open `iosApp/iosApp.xcworkspace` in Xcode.
-2. Select the target iOS Simulator (e.g., iPhone 15 Pro). 
+2. Select the target iOS Simulator (e.g., iPhone 16e). 
 3. Click **Run** to build and deploy the iOS application using shared Compose UI.
 
 ## Screenshots
