@@ -9,7 +9,7 @@ class ProductRepositoryImpl(
     private val api: DummyJsonApi
 ) : ProductRepository {
 
-    // TODO: Replace in-memory cache with SQLDelight or Room for proper offline support in V2
+    
     private val productCache = mutableMapOf<Int, Product>()
     private var categoriesCache = mutableListOf<String>()
 
