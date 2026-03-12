@@ -25,9 +25,6 @@ The application follows Clean Architecture concepts:
 - **Image Loading**: Included `coil3` (Coil Compose Multiplatform) which seamlessly handles cross-platform Compose image loading configured with Ktor network fetcher.
 - **Architecture mapping**: Shared components and presentation are natively implemented entirely in `commonMain` utilizing Compose Multiplatform.
 
-## Development Process & AI Assistance
-As permitted by the assignment guidelines, I utilized AI tools to assist with generating boilerplate UI components and accelerating the Ktor setup. However, the architectural design (Clean Architecture), the selection of libraries (Koin, StateFlow), the trade-off decisions, and the final optimizations are entirely my own.
-
 ## How to Build and Run
 
 ### Android
